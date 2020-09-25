@@ -1,0 +1,68 @@
+
+
+	body{
+		margin: 0;
+		padding: 0;
+		background: url(pozadina.png);
+		background-size: cover;
+		font-family: sans-serif;
+	}
+
+	.signupBox{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 350px;
+		height: 620px;
+		box-sizing: border-box;
+		background: rgb(0,0,0,.5);
+		padding: 80px 40px;
+
+	}
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #80ff80;;
+	text-align: center;
+}
+.signupBox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color:#fff;
+}
+
+.signupBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.signupBox input[type="text"],
+.signupBox input[type="tel"],
+.signupBox input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+:::placeholder{
+	color: rgba(255,255,255,.5);
+}
+
+.signupBox input[type="submit"]
+{
+
+	border:none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background:#80ff80;
+	cursor: pointer;
+	border-radius: 20px;
+}
